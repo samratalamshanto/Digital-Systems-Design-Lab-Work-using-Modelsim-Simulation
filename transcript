@@ -1,0 +1,85 @@
+# Reading pref.tcl
+# Project file F:/others/modelsim project/1607022_alu_operation.mpf was not found.
+# Unable to open project.
+# Loading project 1607022_alu_design
+# reading E:/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project 1607022_alu
+# Compile of 1607022_alu.v was successful.
+# Compile of 1607022_alu_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.arithmetic_tb
+# vsim -gui work.arithmetic_tb 
+# Start time: 13:30:09 on Jun 01,2021
+# Loading work.arithmetic_tb
+# Loading work.arithmetic
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'result'. The port definition is at: E:/1607022_alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /arithmetic_tb/test File: E:/1607022_alu_tb.v Line: 10
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:E:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 2 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 2 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 2 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 2 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+vsim -gui work.arithmetic_tb
+# End time: 13:31:51 on Jun 01,2021, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 11
+# vsim -gui work.arithmetic_tb 
+# Start time: 13:31:51 on Jun 01,2021
+# Loading work.arithmetic_tb
+# Loading work.arithmetic
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'result'. The port definition is at: E:/1607022_alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /arithmetic_tb/test File: E:/1607022_alu_tb.v Line: 10
+# WARNING: No extended dataflow license exists
+run
+#          16 Current value of output is xxxxxxxxxxxxxxxx
+# Compile of 1607022_alu.v was successful.
+# Compile of 1607022_alu_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.arithmetic_tb
+# End time: 13:34:16 on Jun 01,2021, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 3
+# vsim -gui work.arithmetic_tb 
+# Start time: 13:34:16 on Jun 01,2021
+# Loading work.arithmetic_tb
+# Loading work.arithmetic
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'result'. The port definition is at: E:/1607022_alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /arithmetic_tb/test File: E:/1607022_alu_tb.v Line: 10
+vsim -gui work.arithmetic_tb
+# End time: 13:34:35 on Jun 01,2021, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 2
+# vsim -gui work.arithmetic_tb 
+# Start time: 13:34:35 on Jun 01,2021
+# Loading work.arithmetic_tb
+# Loading work.arithmetic
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'result'. The port definition is at: E:/1607022_alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /arithmetic_tb/test File: E:/1607022_alu_tb.v Line: 10
+# Compile of 1607022_alu.v was successful.
+# Compile of 1607022_alu_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of 1607022_alu.v was successful.
+# Compile of 1607022_alu_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.arithmetic_tb
+# End time: 13:37:27 on Jun 01,2021, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 4
+# vsim -gui work.arithmetic_tb 
+# Start time: 13:37:27 on Jun 01,2021
+# Loading work.arithmetic_tb
+# Loading work.arithmetic
+# ** Warning: (vsim-3015) [PCDPC] - Port size (17) does not match connection size (16) for port 'result'. The port definition is at: E:/1607022_alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /arithmetic_tb/test File: E:/1607022_alu_tb.v Line: 10
+run
+#           0 Current value of output is 0101010100001100
+#           1 Current value of output is 0101010100001101
+#           2 Current value of output is 0110010001100001
+#           3 Current value of output is 0110010001100010
+#           4 Current value of output is 0100010110110110
+#           5 Current value of output is 0100010110110111
+#           6 Current value of output is 0101010100001011
+#           7 Current value of output is 0101010100001100
+#           8 Current value of output is 0101111101011101
+#           9 Current value of output is 0101101001011001
+#          10 Current value of output is 0000010100000100
+#          11 Current value of output is 1010101011110011
